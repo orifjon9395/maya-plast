@@ -1,0 +1,114 @@
+body {
+    background-color: #0E93FF;
+    ;
+}
+
+#klents {
+    .container {
+        background-color: white;
+        z-index: 1;
+        transform: translate(0px, 20px);
+
+        .rowContent {
+            width: 90%;
+            margin: auto;
+            height: 20vh;
+
+            h4 {
+                margin-top: 5%;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 32px;
+                color: #0E93FF;
+                line-height: 50px;
+                        @media(max-width:576px){
+                            font-size: 20px;
+                        }
+            }
+
+            h5 {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                color: #D8D4D4;
+                line-height: 30px;
+                @media(max-width:576px){
+                    font-size: 20px;
+                    line-height: 20px;
+                }
+            }
+        }
+
+        .rowContent2 {
+            width: 90%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .box {
+                width: 23%;
+                height: 10vh;
+                background-color: rgb(255, 255, 255);
+                box-shadow: 0px 0px 23px rgba(230, 230, 230, 0.75);
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                @media(max-width:900px) {
+                    width: 43%;
+                    margin-bottom: 20px;
+                }
+
+                img {
+                    width: 70%;
+                    height: 70%;
+                }
+            }
+        }
+
+        .rowConten3 {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            @media(max-width:900px){
+                width: 90%;
+                margin: auto;
+            }
+
+            .box {
+                width: 31%;
+                height: 15vh;
+                background-color: rgb(255, 255, 255);
+                box-shadow: 0px 0px 23px rgba(230, 230, 230, 0.75);
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 60%;
+                    height: 70%;
+                }
+
+                @media(max-width:900px) {
+                    width: 43%;
+                    margin-top: -20px;
+                    margin-bottom: 20px;
+                }
+
+            }
+
+            .box:nth-child(3) {
+                @media(max-width:900px) {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,433 @@
+#obrazes {
+    background: #0E93FF;
+
+    .container {
+        background-color: white;
+        width: 90%;
+        margin: auto;
+        transform: translate(0px, 20px);
+
+        .katalog {
+            width: 95%;
+            margin: 40px auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .katalog_box1 {
+                width: 30%;
+                height: 100%;
+
+                @media(max-width: 900px) {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                h4 {
+                    font-weight: 600;
+                    font-size: 34px;
+                    margin: 20px auto;
+                    color: #0E93FF;
+
+                    @media(max-width: 900px) {
+                        transform: translate(-80px);
+                        font-size: 30px;
+                    }
+
+                    @media(max-width: 576px) {
+                        font-size: 20px;
+                        transform: translate(-40px);
+                    }
+                }
+
+                .oneUl {
+
+                    // width: 60%;
+                    @media(max-width: 900px) {
+                        display: none;
+                    }
+
+                    li {
+                        margin: 15px auto;
+
+                        a {
+                            font-weight: 500;
+                            font-size: 20px;
+                            color: rgba(66, 153, 251, 0.5);
+                        }
+
+                        a:focus {
+                            color: #0E93FF;
+                        }
+
+                    }
+
+                }
+
+                .mediakategoria {
+                    width: 40%;
+                    display: none;
+
+                    h4 {
+                        transform: translate(0px);
+                                @media(max-width:576px){
+                                    font-size: 18px;
+                                }
+                    }
+
+                    @media(max-width: 900px) {
+                        display: block;
+                        position: relative;
+
+                        #twooUl {
+                            position: absolute;
+                            width:100% ;
+                            right: 0px;
+                            background-color: white;
+                            z-index: 5;
+                            padding-left: 20px;
+                            box-shadow: 0px 0px 23px rgba(216, 216, 216, 0.542);
+
+                            @media(max-width: 900px) {
+                                width: 100%;
+                            }
+
+                            @media(max-width: 576px) {
+                                right: 0%;
+                                width: 200%;
+                            }
+
+                            li {
+                                margin: 15px auto;
+                                padding: 5px 0px 15px 0px;
+                                border-bottom: 1px solid rgba(213, 213, 213, 0.22);
+
+                                a {
+                                    color: #4F4F4F;
+                                    font-size: 14px;
+                                }
+
+                                a:focus {
+                                    color: #0E93FF;
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .katalog_box2 {
+                width: 65%;
+                height: 100%;
+
+                @media(max-width: 900px) {
+                    width: 100%;
+                }
+
+                h5 {
+                    font-weight: 600;
+                    font-size: 32px;
+                    color: #0E93FF;
+                    margin: 30px auto;
+                            @media(max-width:576px){
+                                font-size: 20px;
+                                text-align: center;
+                            }
+                }
+
+                p {
+                    font-size: 18px;
+                    color: #6B6B6B;
+                    margin-bottom: 40px;
+                }
+
+                .noney {
+                    display: none;
+                }
+
+                #katalog2_box {
+
+                    width: 100%;
+
+                    .katalog2_box-1 {
+                        width: 100%;
+                        margin: 30px auto;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        flex-wrap: wrap;
+
+                        img {
+                            width: 24%;
+
+                            @media(max-width:900px) {
+                                width: 30%;
+                            }
+
+                            @media(max-width:576px) {
+                                width: 40%;
+
+                            }
+                        }
+                    }
+                }
+
+                #katalog2_box2 {
+                    display: none;
+                    .katalog2_box-1{
+                        img{
+                            @media(max-width:576px){
+                                margin-left: 19%;
+                            }
+                        }
+                    }
+                }
+
+                #katalog2_box3 {
+                    width: 100%;
+                    display: none;
+
+                    .katalog2_box-1 {
+                        width: 100%;
+
+                        img {
+                            width: 24%;
+
+                            @media(max-width:900px) {
+                                width: 32%;
+                                margin: auto;
+
+                            }
+
+                            @media(max-width:576px) {
+                                width: 45%;
+                                margin-left: 2%;
+                            }
+
+                        }
+
+                        img:nth-child(4) {
+                            @media(max-width:900px) {
+                                width: 32%;
+                                margin-left: 32%;
+                                margin-top: 40px;
+                            }
+
+                            @media(max-width:576px) {
+                                width: 45%;
+                                margin-left: 2%;
+                            }
+
+                        }
+                    }
+                }
+
+                #katalog2_box4 {
+                    display: none;
+                    .katalog2_box-1{
+                        img{
+                            @media(max-width:576px){
+                                margin-left: 19%;
+                            }
+                        }
+                    }
+                }
+
+                #katalog2_box5 {
+                    display: none;
+                    .katalog2_box-1{
+                        img{
+                            @media(max-width:576px){
+                                margin-left: 19%;
+                            }
+                        }
+                    }
+                }
+
+                #katalog2_box6 {
+                    display: none;
+                    .katalog2_box-1{
+                        img{
+                            @media(max-width:576px){
+                                margin-left: 19%;
+                            }
+                        }
+                    }
+                }
+                #katalog2_box7{
+                    display: none;
+                    .katalog2_box-1{
+                        img{
+                            width: 23%;
+                            @media(max-width:900px) {
+                                width: 32%;
+                                margin: auto;
+
+                            }
+
+                            @media(max-width:576px) {
+                                width: 45%;
+                                margin-left: 2%;
+                            }
+                        }
+                        img:nth-child(4) {
+                            @media(max-width:900px) {
+                                width: 32%;
+                                margin-left: 32%;
+                                margin-top: 40px;
+                            }
+
+                            @media(max-width:576px) {
+                                width: 45%;
+                                margin-left: 2%;
+                            }
+
+                        }
+                    }
+                }
+                #katalog2_box8{
+                    display: none;
+                    .katalog2_box-1{
+                        img{
+                            width: 23%;
+                            @media(max-width:900px) {
+                                width: 32%;
+                                margin: auto;
+
+                            }
+
+                            @media(max-width:576px) {
+                                width: 45%;
+                                margin-left: 2%;
+                            }
+                        }
+                        img:nth-child(7) {
+                            @media(max-width:900px) {
+                                width: 32%;
+                                margin-left: 33%;
+                                margin-top: 40px;
+                            }
+
+                            @media(max-width:576px) {
+                                width: 45%;
+                                margin-left: 30%;
+                            }
+
+                        }
+                    }
+                }
+                #katalog2_box9{
+                    display: none;
+                    .katalog2_box-1{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        flex-wrap: wrap;
+
+                        img{
+                            width: 23%;
+                            @media(max-width:900px) {
+                                width: 32%;
+                                margin: auto;
+
+                            }
+
+                            @media(max-width:576px) {
+                                width: 44%;
+                                margin-left: 2%;
+                            }
+                        }
+                        img:nth-child(2){
+                            width: 22%;
+                            @media(max-width:900px) {
+                                width: 31%;
+                                margin: auto;
+
+                            }
+
+                            @media(max-width:576px) {
+                                width: 43%;
+                                margin-left: 2%;
+                            }
+                        }
+
+                        img:nth-child(4) {
+                            @media(max-width:900px) {
+                                width: 32%;
+                                margin-left: 33%;
+                                margin-top: 40px;
+                            }
+
+                            @media(max-width:576px) {
+                                width: 45%;
+                                height: 90%;
+                                margin: 0;
+                            }
+
+                        }
+                    }
+                }
+                #katalog2_box10{
+                    display: none;
+                    .katalog2_box-1{
+                        img{
+                            width: 23%;
+                            @media(max-width:900px) {
+                                width: 32%;
+                                margin: auto;
+
+                            }
+
+                            @media(max-width:576px) {
+                                width: 45%;
+                                margin-left: 2%;
+                            }
+                        }
+                        img:nth-child(4) {
+                            @media(max-width:900px) {
+                                width: 32%;
+                                margin-left: 32%;
+                                margin-top: 40px;
+                            }
+
+                            @media(max-width:576px) {
+                                width: 45%;
+                                margin-left: 2%;
+                            }
+
+                        }
+                    }
+                }
+                #katalog2_box11{
+                    display: none;
+                    .katalog2_box-1{
+                        img{
+                            width: 23%;
+                            @media(max-width:900px) {
+                                width: 32%;
+                                margin: auto;
+
+                            }
+
+                            @media(max-width:576px) {
+                                width: 80%;
+                                margin-left: 8%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.noney {
+    display: none;
+}
+.block{
+    display: block;
+}

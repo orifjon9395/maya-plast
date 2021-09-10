@@ -1,0 +1,169 @@
+body {
+  background: #0186F1;
+}
+
+#hedrpage {
+  padding-bottom: 0px;
+}
+
+#hedrpage .navbar {
+  background: #0186F1;
+  width: 100%;
+}
+
+#footer {
+  background: #0186F1;
+}
+
+#footer .container {
+  margin: 3.6% auto;
+}
+
+#footer .container .futerhedr {
+  width: 100%;
+  height: 5vh;
+  padding-left: 30px;
+  border-bottom: 1px solid rgba(199, 199, 199, 0.316);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footer .container .futerhedr i {
+  font-size: 30px;
+}
+
+#footer .container .futerhedr a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #777777;
+  margin-right: 10px;
+}
+
+@media (max-width: 576px) {
+  #footer .container .futerhedr a {
+    font-size: 18px;
+  }
+}
+
+#footer .container .futerhedr h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #0E93FF;
+}
+
+@media (max-width: 576px) {
+  #footer .container .futerhedr h5 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
+
+#footer .container .futerbox1 .inputbox input {
+  background-color: #F5F5F5;
+}
+
+#footer .container .futerbox1 .inputbox label {
+  color: rgba(128, 128, 128, 0.378);
+}
+
+#footer .container .futerbox1 .inputbox input:focus ~ label {
+  color: #0E93FF;
+}
+
+#footer .container .futerbox1 button {
+  background-color: #0E93FF;
+  color: white;
+  margin-bottom: 42px;
+}
+
+#footer .container .futerbox1 textarea {
+  background-color: #F5F5F5;
+  color: #0E93FF;
+}
+
+#footer .container .futerbox2 {
+  height: 60vh;
+}
+
+#footer .container .futerbox2 .box {
+  width: 100% !important;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 10px;
+}
+
+@media (max-width: 900px) {
+  #footer .container .futerbox2 .box {
+    width: 90%;
+    margin: auto !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #footer .container .futerbox2 .box {
+    width: 90% !important;
+    margin: auto !important;
+  }
+}
+
+#footer .container .futerbox2 .box h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #0E93FF;
+  margin-left: 0%;
+}
+
+#footer .container .futerbox2 .box h4 {
+  color: #6B6B6B;
+  font-size: 16px;
+  width: 60%;
+  margin: auto;
+  margin-right: 0%;
+  text-align: right;
+}
+
+#footer .container .futerbox2 .box p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #6B6B6B;
+}
+
+@media (max-width: 1050px) {
+  #footer .container .futerbox2 .box p {
+    font-size: 11px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 900px) {
+  #footer .container .futerbox2 .box p {
+    font-size: 14px;
+  }
+}
+
+#footer ::-webkit-input-placeholder {
+  color: rgba(128, 128, 128, 0.378);
+}
+
+#footer :-ms-input-placeholder {
+  color: rgba(128, 128, 128, 0.378);
+}
+
+#footer ::-ms-input-placeholder {
+  color: rgba(128, 128, 128, 0.378);
+}
+
+#footer ::placeholder {
+  color: rgba(128, 128, 128, 0.378);
+}
+/*# sourceMappingURL=footer.css.map */
